@@ -1,5 +1,5 @@
 #if !defined(HANDMADE_MATH_H)
-
+//
 union v2
 {
     struct
