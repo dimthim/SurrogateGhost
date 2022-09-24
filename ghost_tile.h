@@ -1,7 +1,7 @@
 #if !defined(GHOST_TILE_H)
 
 
-//005
+//0005
 inline int32
 GetRoom(level *Lvl, v2 Pos)
 {
