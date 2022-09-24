@@ -3,7 +3,7 @@
 set CommonCompilerFlags=-MTd -nologo -fp:fast -Gm- -GR- -EHa- -Od -Oi -WX -W4 -wd4201 -wd4100 -wd4189 -wd4505 -DDEMO=1 -DGHOST_INTERNAL=1 -DGHOST_SLOW=1 -DGHOST_WIN32=1 -FC -Z7
 set CommonLinkerFlags= -incremental:no -opt:ref user32.lib gdi32.lib winmm.lib
 
-REM TODO - can we just build both with one exe?
+REM TODO - can we just build both with one ex?
 
 IF NOT EXIST ..\..\build mkdir ..\..\build
 pushd ..\..\build
