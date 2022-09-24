@@ -94,7 +94,7 @@ enum APT_LAYERS
     MAX_LAYERS,
     
 };
-
+//
 enum ROOMS
 {
     MAIN_ROOM,//0
