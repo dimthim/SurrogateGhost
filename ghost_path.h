@@ -8,7 +8,7 @@ bool32 EntityCheck(v2 EyePos,
                    v2 EntityRadius,
                    uint32 *Tile)
 {    
-    //TODO: For pickupable objects, just check the EntityPos, no corners!
+    //TODO: For pickupable objects, just check the EntityPos, no corners! yo
     //TODO: Have the two lines that determine the npc eyes start at the corners of the npc's face, not the center of his face!
 
     real32 NearSide = 0;
