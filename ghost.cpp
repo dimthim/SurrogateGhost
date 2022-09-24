@@ -16,7 +16,7 @@ GameOutputSound(game_state *GameState, game_sound_output_buffer *SoundBuffer, in
         SampleIndex < SoundBuffer->SampleCount;
         ++SampleIndex)
     {
-        // TODO(casey): Draw this out for people
+        // TODO(): Draw this out for people
 #if 0
         real32 SineValue = sinf(GameState->tSine);
         int16 SampleValue = (int16)(SineValue * ToneVolume);
@@ -363,7 +363,7 @@ DEBUGLoadBMP(thread_context *Thread, debug_platform_read_entire_file *ReadEntire
         //because Aseprite has 24-bit pixels and uses 0 for compression
         Assert(Header->Compression == 0);
         
-        // NOTE(casey): If you are using this generically for some reason,
+        // NOTE(): If you are using this generically for some reason,
         // please remember that BMP files CAN GO IN EITHER DIRECTION and
         // the height will be negative for top-down.
         // (Also, there can be compression, etc., etc... DON'T think this
