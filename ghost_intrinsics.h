@@ -1,6 +1,6 @@
 #if !defined(GHOST_INTRINSICS_H)
 
-// TODO(casey): Convert all of these to platform-efficient versions
+// TODO(): Convert all of these to platform-efficient versions
 // and remove math.h
 //m
 
