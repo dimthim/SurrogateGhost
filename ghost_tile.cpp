@@ -1,5 +1,5 @@
 
-//005
+//-005
 inline int32
 GetBoard(level *Lvl, v2 Pos)
 {
