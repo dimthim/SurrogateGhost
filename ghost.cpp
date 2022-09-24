@@ -3,7 +3,7 @@
 #include "ghost.h"
 
 
-//000
+//000-
 internal void
 GameOutputSound(game_state *GameState, game_sound_output_buffer *SoundBuffer, int ToneHz)
 {
