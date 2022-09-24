@@ -15,5 +15,5 @@ echo -------
 findstr -s -n -i -l "local_persist" %Wildcard%
 findstr -s -n -i -l "global_variable" %Wildcard%
 
-echo -------
+echo --------
 echo -------
